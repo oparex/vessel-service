@@ -1,4 +1,3 @@
-// vessel-service/Makefile
 build:
 	protoc -I. --go_out=plugins=micro:$(GOPATH)/src/github.com/oparex/vessel-service \
 		proto/vessel/vessel.proto
